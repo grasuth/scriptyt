@@ -9,13 +9,13 @@ transtions and VJing.
 ## How
 
 The first experiment is to make a chome app with a scriptable window and
-attempt some transitions in code.  I want to keep latency of commands and 
+attempt some transitions in code.  I want to keep latency of commands and
 resulting youtube behaviour as low as possible.  So we start with simple
 messaging and then have something to play with, transitions-wise.
 
 ## To think about
 
-1. How to preload youtube windows and switch between them with CSS/canvas/JS 
+1. How to preload youtube windows and switch between them with CSS/canvas/JS
 transitions.
 
 2. A really easy way to record and replay sessions of videos

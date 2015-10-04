@@ -1,0 +1,12 @@
+{
+  "name": "ScriptYt Exp. 1",
+  "description": "ScriptYt Exp. 1",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/main.js"]
+    }
+  },
+  "icons": { "16": "styt16.png", "128": "styt128.png" }
+}
