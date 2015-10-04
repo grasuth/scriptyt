@@ -1,0 +1,2 @@
+# scriptyt
+Scriptable Youtube player
