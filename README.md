@@ -6,12 +6,19 @@ A scriptable youtube player window that can be driven remotely.  This to allow
 code or somebody to drive the youtube player for projection, to explore
 transtions and VJing.
 
-## How
+## Experiments
+
+1. Chrome App
 
 The first experiment is to make a chome app with a scriptable window and
 attempt some transitions in code.  I want to keep latency of commands and
 resulting youtube behaviour as low as possible.  So we start with simple
 messaging and then have something to play with, transitions-wise.
+
+2. Communicating tabs in one browser  - scriptable basic web app that supports
+   this. 
+
+3. Cross-brower cross-net playing.
 
 ## To think about
 
@@ -22,7 +29,7 @@ transitions.
 
 3. How to make a console for live youtube music VJing
 
-4. How to analyse and beat match youtube videos.
+4. How to analyse and beat match youtube music videos.
 
 ## Contribute..
 
