@@ -1,0 +1,23 @@
+{
+  "name": "ScriptYt Exp. 1",
+  "description": "ScriptYt Exp. 1",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/main.js"]
+    }
+  },
+  "permissions": [
+    "http://*.youtube.com/",
+    "https://*.youtube.com/"
+  ],
+  "icons": { "16": "icons/styt16.png", "128": "icons/styt128.png" },
+  "sandbox": {
+    "pages": [
+      "html/player.html"
+    ],
+    "content_security_policy":
+      "sandbox allow-scripts; script-src 'unsafe-inline' https://www.youtube.com https://s.ytimg.com; default-src https://www.youtube.com"
+  }
+}
